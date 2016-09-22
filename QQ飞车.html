@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>QQ飞车</title>
+</head>
+<link rel="stylesheet" href="less/QQ飞车.css"/>
+
+<style type="text/css">
+
+</style>
+
+<body>
+<div class="head">
+    <div class="head_top">
+        <div class="head_top_left" >
+            <a href="#"><!--用来截取图片--></a>
+            <a href="#" onmouseover="showbig()" onmouseout="out()">
+                <img src="img/京东小0.jpg" id="jingdong_small"  />
+                <img src="img/京东.jpg" id="jingdong_big"  style="display: none;"/>
+            </a>
+        </div>
+        <script>
+            function showbig(){
+                document.getElementById('jingdong_big').style.display='block'
+                document.getElementById('jingdong_small').style.display='none'
+            }
+            function out(){
+                document.getElementById('jingdong_small').style.display='block';
+                document.getElementById('jingdong_big').style.display='none';
+
+            }
+        </script><!--京东的js-->
+
+        <div class="head_top_right">
+            <a href="#">腾讯游戏排行榜</a>
+            <a href="#"></a>
+        </div>
+    </div>
+    <div class="head_bottom" >
+        <span class="linlang"><!--图片截取--></span>
+        <a href="#">
+            <span>公告：</span>
+                <span>
+                    《御龙在天经典版》今日【至尊】公测，重磅福利赏老兵回归>>>
+                    <p></p>
+                </span>
+        </a>
+    </div>
+</div>
+
+<div class="wrap">
+
+    <div class="daohang">
+        <ul class="ul1">
+            <li><a href="#">新手指引</a></li>
+            <li><a href="#">教学视频</a></li>
+        </ul>
+        <ul class="ul2">
+            <li><a href=#>游戏介绍</a></li>
+            <li><a href=#>游戏模式</a></li>
+            <li><a href=#>官方漫画</a></li>
+        </ul>
+        <ul class="ul3">
+            <li><a href="#">版本专区</a></li>
+            <li><a href="#">合作专区</a></li>
+            <li><a href="#">QQ会员专区</a></li>
+            <li><a href="#">蓝钻福利社区</a></li>
+        </ul>
+        <ul class="ul4">
+            <li><a href="#">道具城</a></li>
+            <li><a href="#">点券充值</a></li>
+        </ul>
+        <ul class="ul5">
+            <li><a href="#">游戏下载</a></li>
+            <li><a href="#">精美壁纸</a></li>
+        </ul>
+        <ul class="ul6">
+            <li><a href="#">视频中心</a></li>
+            <li><a href="#">官方论坛</a></li>
+            <li><a href="#">官方微信</a></li>
+            <li><a href="#">掌上QQ飞车</a></li>
+        </ul>
+        <ul class="ul7">
+            <li><a href="#">客服中心</a></li>
+            <li><a href="#">封号查询</a></li>
+        </ul>
+    </div>
+    <div class="bg"><!--放置背景图--></div>
+    <div class="QQ"><!--为了放置QQ飞车图标--></div>
+    <div class="down_bg"><!--放置下载背景图--></div>
+    <div class="xiazai">
+        <span class="downgame">
+            下载游戏
+            <p>DOWNLOAD</p>
+        </span><!--DOWNLOAD处-->
+        <div class="login">
+            <p class="yuan"><!--放置圆形--></p>
+            <img src="img/进入飞车世界56x56.jpg" alt=""/>
+            <p class="font">欢迎<span>登录</span>，进入飞车世界</p>
+        </div><!--进入飞车世界处-->
+        <div id="show_img">
+            <div id="inner">
+                <img src="img/11轮播.jpg" alt=""/>
+                <img src="img/22轮播.jpg" alt=""/>
+                <img src="img/33轮播60.jpg" alt=""/>
+                <img src="img/44轮播60.jpg" alt=""/>
+                <img src="img/66轮播887.jpg" alt=""/>
+                <img src="img/77轮播.jpg" alt=""/>
+                <img src="img/88轮播.jpg" alt=""/>
+                <img src="img/99轮播2.jpg" alt=""/>
+            </div>
+            <div class="arrow">
+                <div id="left" ><span class="left"></span></div><!‐‐ 向左切换按钮 ‐‐>
+                <div id="right" ><span class="right"></span></div><!‐‐ 向右切换按钮 ‐‐>
+            </div>
+            <div class="paganation" id="paganation"><!‐‐ 页面按钮区域 ‐‐>
+                <span ></span>
+                <span ></span>
+                <span ></span>
+                <span ></span>
+                <span ></span>
+                <span ></span>
+                <span ></span>
+                <span ></span>
+            </div>
+
+        </div>
+        <div class="dianquan">
+            <img src="img/点券.jpg" alt=""/>
+        </div>
+    </div>
+    <div class="xiuchang">
+        <span><!--最上面边框--></span>
+        <div class="top">
+            <span><!--四周边框--></span>
+            <a href="#" class="xingguangxiuchang"><!--星光秀场-->
+               <p><!--视频那个图标--></p>
+            </a>
+            <a href="#" class="zizuanzhuanqu"><!--紫钻专区-->
+               <p><!--紫钻那个图标--></p>
+            </a>
+        </div>
+        <ul class="dianquanchongzhi">
+            <li>点券充值</li>
+            <li>视频中心</li>
+            <li>开通紫钻</li>
+            <li>官方论坛</li>
+        </ul> <!--点券充值处-->
+        <ul class="dianliangtubiao">
+            <li>点亮图标</li>
+            <li>道聚城</li>
+            <li>SSC联赛</li>
+            <li>星光秀场</li>
+            <li>体验报</li>
+            <li>补丁下载</li>
+            <li>新手礼包</li>
+            <li>CDK兑换</li>
+            <li>官方微信</li>
+            <li>掌上飞车</li>
+            <li>官方漫画</li>
+            <li>合作专区</li>
+        </ul><!--点亮图标处-->
+        <div class="kefuzhongxin"></div><!--客服中心处-->
+        <div class="center">
+            <span><!--客服以下四周边框--></span>
+        </div>
+        <div class="password"> <!--密码找回处-->
+            <ul>
+                <li>道具找回</li>
+                <li>密码找回</li>
+                <li>用户协议</li>
+                <li>玩家条例</li>
+                <li>安全中心</li>
+                <li>防沉迷</li>
+                <li>家长监控</li>
+                <li>Q游助手</li>
+            </ul>
+        </div><!--密码找回处-->
+        <div class="zaixian">
+            <span class="zaixiankefu"></span><!--在线客服-->
+            <span class="hezuomeiti">QQ飞车合作媒体站点
+               <p></p>
+            </span><!--合作媒体-->
+            <span class="hezuohuoban">QQ飞车合作伙伴站点
+            <p></p>
+            </span><!--合作伙伴-->
+        </div><!--在线-->
+        <div class="bottom"><!--底部边框-->
+            <span></span>
+        </div>
+    </div><!--秀场-->
+    <div class="middle">
+        <div class="new">
+            <div class="new_left">
+                <div class="new_title">
+                    <p class="news"><!--新闻这两字的图片--></p>
+                    <p class="more"><!--+更多这几个字的图片--></p>
+                </div><!--新闻和更多这两个字-->
+                <div class="tab_title" id="tab0_title" >
+                    <ul class="first" id="first0">
+                        <li style="color: #FE3052">综合</li>
+                        <li>活动</li>
+                        <li>公告</li>
+                        <li>赛事</li>
+                        <li>论坛</li>
+                    </ul><!--综合 论坛等标签-->
+                    <div class="zonghe" style="display:block">
+                        <p>9月10日在线狂欢送好礼</p>
+                        <ul>
+                            <li>
+                                <span><!--放logo--></span>
+                                [活动]  教师节特别更新 永久极品2Q币得！
+                            </li>
+                            <li>
+                                <span><!--放logo--></span>
+                                [活动]  教师节福利回馈！终极大奖限时三倍！
+                            </li>
+                            <li>
+                                <span><!--放logo--></span>
+                                [活动]  捣蛋鬼不调皮，永久机甲三连发！
+                            </li>
+                            <li>
+                                <span><!--放logo--></span>
+                                [活动]  金秋红叶送好礼 赢永久S车+双人骑宠！
+                            </li>
+                            <li>
+                                <span><!--放logo--></span>
+                                [活动]  盛夏优选特卖，经典再现！
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="huodong" style="display: none;">
+                        <ul>
+                            <p>教师节特别更新 永久极品2Q币得！</p>
+                            <li>
+                                <span><!--logo--></span>
+                                [活动] 教师节福利回馈！终极大奖限时三倍！
+                            </li>
+                            <li>
+                                <span><!--logo--></span>
+                                [活动] 教师节福利回馈！终极大奖限时三倍！
+                            </li>
+                            <li>
+                                <span><!--logo--></span>
+                                [活动] 教师节福利回馈！终极大奖限时三倍！
+                            </li>
+                            <li>
+                                <span><!--logo--></span>
+                                [活动] 教师节福利回馈！终极大奖限时三倍！
+                            </li>
+                            <li>
+                                <span><!--logo--></span>
+                                [活动] 教师节福利回馈！终极大奖限时三倍！
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="gonggao" style="display: none;">
+                        <ul>
+                            <p>点券、幸运币月末清空公告——8月</p>
+                            <li>
+                                <span></span>
+                                [公告] 关于严厉打击《换车拉力赛》模式外挂和辅助的公告与处罚名单
+                            </li>
+                            <li>
+                                <span></span>
+                                [公告] 关于严厉打击外挂和辅助的公告与处罚名单（9月11日更新）
+                            </li>
+                            <li>
+                                <span></span>
+                                [公告] 仲裁之锤！雷霆出击！处罚名单持续更新（9月8日）
+                            </li>
+                            <li>
+                                <span></span>
+                                [公告] 仲裁之锤！雷霆出击！处罚名单持续更新（9月8日）
+                            </li>
+                            <li>
+                                <span></span>
+                                [公告] 仲裁之锤！雷霆出击！处罚名单持续更新（9月8日）
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="saishi" style="display: none;">
+                        <ul>
+                            <p>SSC2016秋季赛报名开启 赛程信息一手掌握</p>
+                            <li>
+                                <span></span>
+                                [全民争霸赛] 2016全民争霸赛9月城市赛 网吧参赛信息指引
+                            </li>
+                            <li>
+                                <span></span>
+                                [谁是车王] 专访星光秀场主播 谁是车王罗伟华丽登场
+                            </li>
+                            <li>
+                                <span></span>
+                                [全民争霸赛] 2016全民争霸赛8月第一周赛 战火再燃绿城郑州
+                            </li>
+                            <li>
+                                <span></span>
+                                [全民争霸赛] 2016全民争霸赛8月第一周赛 黑龙江打响花样竞速
+                            </li>
+                            <li>
+                                <span></span>
+                                [全民争霸赛] 2016全民争霸赛8月第一周赛 广西上演雨中飙车大戏
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="luntan" style="display: none;">
+                        <ul>
+                            <p>【精美制图】 ——闪亮吊坠——抱图更新至11楼</p>
+                            <li>
+                                <span></span>
+                                [论坛精华]【我最爱素材】小奕分享超多ＧＩＦ动漫图片６９．３ＭＢ
+                            </li>
+                            <li>
+                                <span></span>
+                                [论坛精华]【橘子周刊】第二十八期：开学了，听说你要上天？！
+                            </li>
+                            <li>
+                                <span></span>
+                                [论坛精华]【橘子周刊】当飞车遇上科幻，简直给跪了！
+                            </li>
+                            <li>
+                                <span></span>
+                                [论坛精华]【视频团】【第十五期】精品推荐视频精选
+                            </li>
+                            <li>
+                                <span></span>
+                                [论坛精华]【飞驰之王】蝴蝶小佛丶 袋鼠岛 1.29.58（穿梭者）
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--切换tab页-->
+            </div>
+            <div class="new_right">
+                <div class="new_title">
+                    <p class="huodong"><!--活动这两字的图片--></p>
+                    <p class="more"><!--+更多这几个字的图片--></p>
+                </div>
+                <div class="huodong_img">
+                    <span class="huodong_1"></span>
+                    <img src="img/大白92.jpg" class="bai" alt=""/>
+                    <span class="huodong_2"></span>
+                    <img src="img/A车.jpg" class="A" alt=""/>
+                </div>
+            </div><!---->
+        </div><!--中间的新闻和活动部分-->
+        <div class="saishi">
+            <div class="saishi_left">
+                <div class="saishi_title">
+                    <p class="saishi_s"><!--赛事这两字的图片--></p>
+                    <p class="more"><!--+更多这几个字的图片--></p>
+                </div><!--赛事和更多这两个词-->
+                <div class="tab1_title" id="tab1_title" >
+                    <ul class="first1" id="first1">
+                        <li >SSC</li>
+                        <li>谁是车王</li>
+                        <li>全民争霸赛</li>
+                    </ul>
+                    <div class="SSC" id="SSC" style="display: block;">
+                            <span></span>
+                            <img src="img/SSC.jpg" alt=""/>
+                            <p>SSC秋季赛9.15-9.17激情开战！</p>
+                            <ul>
+                                <li>2016.7~2016.8</li>
+                                <li>SSC2016秋季赛报名开启 赛程信息一手掌握</li>
+                                <li>SSC2016秋季赛报名开启 赛程信息一手掌握</li>
+                                <li>SSC2016秋季赛报名开启 赛程信息一手掌握</li>
+                                <li>SSC2016秋季赛报名开启 赛程信息一手掌握</li>
+                            </ul>
+                    </div>
+                    <div class="chewang" id="chewang" style="display: none">
+                        <span></span>
+                        <img src="img/谁是.jpg" alt=""/>
+
+                        <p>谁是车王第三季精彩视频回顾</p>
+                        <ul>
+                            <li>2016.7~2016.8</li>
+                            <li>2016全民争霸赛9月城市赛 网吧参赛信息指引</li>
+                            <li>后WCG时代，不可被遗忘的竞速竞技</li>
+                            <li>竞速类赛事，被忽视的电竞常青树？</li>
+                        </ul>
+                    </div>
+                    <div class="zhengba" id="zhengba" style="display: none">
+
+                            <span></span>
+                            <img src="img/全民争霸.jpg" alt=""/>
+
+
+                            <p>全民争霸9月18日邀你来战！</p>
+                            <ul>
+                                <li>2016.5~2016.12</li>
+                                <li>2016全民争霸赛9月城市赛 网吧参赛信息指引</li>
+                                <li>2016全民争霸赛8月第一周赛 战火再燃绿城郑州</li>
+                                <li>2016全民争霸赛8月第一周赛 黑龙江打响花样竞速</li>
+                                <li>2016全民争霸赛8月第一周赛 广西上演雨中飙车大</li>
+                            </ul>
+
+                    </div>
+                 </div>
+             </div>
+            <div class="saishi_right">
+                <div class="new_title">
+                    <p class="banben"></p><!--版本-->
+                    <p class="more"></p><!--更多-->
+                </div>
+                <div class="banben_img">
+                    <span class="banben_1"></span>
+                    <img src="img/极速1905.jpg"  class="jisu" alt=""/>
+                    <span class="banben_2"></span>
+                    <img src="img/点券889292.jpg" class="dianquan" alt=""/>
+                </div>
+            </div>
+        </div>
+        <div class="shipin">
+            <div class="new_title">
+                <p class="shipin"></p>
+                <p class="more"></p>
+            </div>
+            <div class="tab2_title" id="tab2_title">
+                <ul class="first2" id="first2">
+                    <li>最新</li>
+                    <li>推荐</li>
+                    <li>教学</li>
+                    <li>赛车</li>
+                    <li>赛事</li>
+                    <li>官方</li>
+                </ul>
+                <div class="zuixin" style="display: block;">
+                   <!-- <span class="span_01"></span>
+                    <span class="span_02"></span>
+                    <span class="span_03"></span>
+                    <span class="span_04"></span>-->
+                  <!--  <span></span>-->
+                    <img src="img/0%20(1).jpg"  class="one" alt=""/>
+                    <img src="img/0%20(2).jpg"  class="two" alt=""/>
+                    <img src="img/0%20(3).jpg"  class="three" alt=""/>
+                    <img src="img/0%20(4).jpg"  class="four" alt=""/>
+                </div>
+                <div class="tuijian" style="display:none;">
+                    <img src="img/1（1）.png" class="one" alt=""/>
+                    <img src="img/1（2）.png" class="two" alt=""/>
+                    <img src="img/1（3）.）png.png" class="three" alt=""/>
+                    <img src="img/1（4）.png" class="four" alt=""/>
+                </div>
+                <div class="jiaoxue" style="display:none;">
+                    <img src="img/21.jpg" class="one" alt=""/>
+                    <img src="img/22.jpg" class="two" alt=""/>
+                    <img src="img/23).jpg" class="three" alt=""/>
+                    <img src="img/24.jpg" class="four" alt=""/>
+                </div>
+                <div class="saiche" style="display:none;">
+                    <img src="img/31).jpg" class="one" alt=""/>
+                    <img src="img/32.jpg" class="two" alt=""/>
+                    <img src="img/33).jpg" class="three" alt=""/>
+                    <img src="img/34.jpg" class="four" alt=""/>
+                </div>
+                <div class="saishi" style="display:none;">
+                    <img src="img/41.jpg" class="one" alt=""/>
+                    <img src="img/42.jpg" class="two" alt=""/>
+                    <img src="img/43.jpg" class="three" alt=""/>
+                    <img src="img/44.jpg" class="four" alt=""/>
+                </div>
+                <div class="guanfang" style="display:none;">
+                    <img src="img/51.jpg" class="one" alt=""/>
+                    <img src="img/52.jpg" class="two" alt=""/>
+                    <img src="img/53.jpg" class="three" alt=""/>
+                    <img src="img/54.jpg" class="four" alt=""/>
+                </div>
+            </div>
+        </div>
+        <div class="meiti">
+            <div class="meiti_title">
+                <p class="meitihezuo"></p>
+                <p class="more"></p>
+            </div>
+            <div class="tab4_title" id="tab4_title" >
+                <ul class="first4" id="first4">
+                    <li style="color: #8F8F8F;">综合</li>
+                    <li>766</li>
+                    <li>17173</li>
+                    <li>Tgbus</li>
+                    <li>爱拍</li>
+                    <li>U9</li>
+                </ul><!--媒体处等标签-->
+                <div class="media_1 "style="display:block">
+                    <ul>
+                        <li>
+                            <span><!--放logo--></span>
+                            [活动]  教师节特别更新 永久极品2Q币得！
+                        </li>
+                        <li>
+                            <span><!--放logo--></span>
+                            [活动]  教师节福利回馈！终极大奖限时三倍！
+                        </li>
+                        <li>
+                            <span><!--放logo--></span>
+                            [活动]  捣蛋鬼不调皮，永久机甲三连发！
+                        </li>
+                        <li>
+                            <span><!--放logo--></span>
+                            [活动]  金秋红叶送好礼 赢永久S车+双人骑宠！
+                        </li>
+                        <li>
+                            <span><!--放logo--></span>
+                            [活动]  盛夏优选特卖，经典再现！
+                        </li>
+                        <li>
+                            <span><!--放logo--></span>
+                            [活动]  盛夏优选特卖，经典再现！
+                        </li>
+                    </ul>
+                </div>
+                <div class="media_2" style="display: none;">
+                    <ul>
+                        <li>
+                            <span><!--logo--></span>
+                            [活动] 教师节福利回馈！终极大奖限时三倍！
+                        </li>
+                        <li>
+                            <span><!--logo--></span>
+                            [活动] 教师节福利回馈！终极大奖限时三倍！
+                        </li>
+                        <li>
+                            <span><!--logo--></span>
+                            [活动] 教师节福利回馈！终极大奖限时三倍！
+                        </li>
+                        <li>
+                            <span><!--logo--></span>
+                            [活动] 教师节福利回馈！终极大奖限时三倍！
+                        </li>
+                        <li>
+                            <span><!--logo--></span>
+                            [活动] 教师节福利回馈！终极大奖限时三倍！
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="media_3" style="display: none;">
+                    <ul>
+                        <li>
+                            <span></span>
+                            [公告] 关于严厉打击《换车拉力赛》模式外挂和辅助的公告与处罚名单
+                        </li>
+                        <li>
+                            <span></span>
+                            [公告] 关于严厉打击外挂和辅助的公告与处罚名单（9月11日更新）
+                        </li>
+                        <li>
+                            <span></span>
+                            [公告] 仲裁之锤！雷霆出击！处罚名单持续更新（9月8日）
+                        </li>
+                        <li>
+                            <span></span>
+                            [公告] 仲裁之锤！雷霆出击！处罚名单持续更新（9月8日）
+                        </li>
+                        <li>
+                            <span></span>
+                            [公告] 仲裁之锤！雷霆出击！处罚名单持续更新（9月8日）
+                        </li>
+                    </ul>
+                </div>
+                <div class="media_4" style="display: none;">
+                    <ul>
+                        <li>
+                            <span></span>
+                            [全民争霸赛] 2016全民争霸赛9月城市赛 网吧参赛信息指引
+                        </li>
+                        <li>
+                            <span></span>
+                            [谁是车王] 专访星光秀场主播 谁是车王罗伟华丽登场
+                        </li>
+                        <li>
+                            <span></span>
+                            [全民争霸赛] 2016全民争霸赛8月第一周赛 战火再燃绿城郑州
+                        </li>
+                        <li>
+                            <span></span>
+                            [全民争霸赛] 2016全民争霸赛8月第一周赛 黑龙江打响花样竞速
+                        </li>
+                        <li>
+                            <span></span>
+                            [全民争霸赛] 2016全民争霸赛8月第一周赛 广西上演雨中飙车大戏
+                        </li>
+                    </ul>
+                </div>
+                <div class="media_5" style="display: none;">
+                    <ul>
+                        <li>
+                            <span></span>
+                            [论坛精华]【我最爱素材】小奕分享超多ＧＩＦ动漫图片６９．３ＭＢ
+                        </li>
+                        <li>
+                            <span></span>
+                            [论坛精华]【橘子周刊】第二十八期：开学了，听说你要上天？！
+                        </li>
+                        <li>
+                            <span></span>
+                            [论坛精华]【橘子周刊】当飞车遇上科幻，简直给跪了！
+                        </li>
+                        <li>
+                            <span></span>
+                            [论坛精华]【视频团】【第十五期】精品推荐视频精选
+                        </li>
+                        <li>
+                            <span></span>
+                            [论坛精华]【飞驰之王】蝴蝶小佛丶 袋鼠岛 1.29.58（穿梭者）
+                        </li>
+                    </ul>
+                </div>
+                <div class="media_6" style="display: none;">
+                    <ul>
+                        <li>
+                            <span></span>
+                            [论坛精华]【我最爱素材】小奕分享超多ＧＩＦ动漫图片６９．３ＭＢ
+                        </li>
+                        <li>
+                            <span></span>
+                            [论坛精华]【橘子周刊】第二十八期：开学了，听说你要上天？！
+                        </li>
+                        <li>
+                            <span></span>
+                            [论坛精华]【橘子周刊】当飞车遇上科幻，简直给跪了！
+                        </li>
+                        <li>
+                            <span></span>
+                            [论坛精华]【视频团】【第十五期】精品推荐视频精选
+                        </li>
+                        <li>
+                            <span></span>
+                            [论坛精华]【飞驰之王】蝴蝶小佛丶 袋鼠岛 1.29.58（穿梭者）
+                        </li>
+                    </ul>
+                </div>
+            </div><!--切换tab页-->
+        </div>
+    </div>
+ </div>
+</body>
+<script src="js-QQ飞车/QQ飞车.js"></script>
+<script>
+    var show = document.getElementById('show_img');//得到展示框
+    var inner = document.getElementById('inner');//得到存放图片的div
+    var spanList=document.getElementById("paganation").getElementsByTagName("span");//得到圆点按钮
+    var left=document.getElementById("left"); //得到左右箭头切换按钮
+    var right=document.getElementById("right");//得到左右箭头切换按钮
+    var time;
+    var index=0;//记录每次滑动图片的下标
+    var Distance = show_img.offsetWidth;//获取展示区的宽度，即每张图片的宽度
+    var clickFlag=true;//设置左右切换标记位防止连续按,效果有点不同
+
+
+
+    //开启图片自动向右滑动的计时器
+   time=setInterval(forward,3000);
+
+      //自动轮动图片方法   --->向右滑动
+    spanList[0].setAttribute("style"," background-position: -581px -290px;")
+    function forward(){
+//        spanList[index].className= "selected";
+        index++; //记录每次滑动图片的下标
+        if(index>spanList.length){//当图片下标到最后一张把小标换0
+            index=0;
+        }
+        AutoGo();
+    }
+    //图片向左滑动函数
+    function backward(){
+        index--;
+        //当图片下标到第一张让它返回到倒数第二张，
+        //left值要变到最后一张才不影响过渡效果
+        if(index<0){
+            index=spanList.length-1;
+            inner.style.left=(index+1)*Distance*(-1)+"px";
+        }
+        AutoGo();
+    }
+
+    function AutoGo(){  //切换
+      var start = inner.offsetLeft;//获取移动块当前的left的开始坐标
+      var end=index*Distance*(-1);//获取移动块移动结束的坐标。即图片左移的距离
+        var change=end-start;//偏移量   -510 - 0
+        var timer;//用计时器为图片添加动画效果
+        var t=0;
+        var maxT=20;//用于计算图片的偏移量： 值越大移动的越慢(计算时做分母)
+        clear();
+        if(index==spanList.length){
+            spanList[0].setAttribute("style"," background-position: -581px -290px;")
+        }else{
+            spanList[index].setAttribute("style"," background-position: -581px -290px;")
+        }
+
+        timer=setInterval(function(){
+            /* debugger*/
+            t++;
+            if(t>=maxT){//当图片到达终点停止计时器
+                clearInterval(timer);
+                clickFlag=true;//当图片到达终点才能切换
+            }
+            inner.style.left=change/maxT*t+start+"px";//每个17毫秒让块移动
+            if(index==spanList.length&&t>=maxT){
+                inner.style.left=0;
+                index=0; //当图片到最后一张时把它瞬间切换回第一张，由于都同一张图片不会影响效果
+            }
+        },17);
+    }
+
+//    //设置鼠标悬停动画停止
+//    wrap.onmouseover=function(){
+//        clearInterval(time);
+//    }
+//    wrap.onmouseout=function(){
+//        time=setInterval(forward,3000);
+//    }
+    //遍历每个按钮让其切换到对应图片
+    for(var i=0;i<spanList.length;i++){
+        spanList[i].id=i;
+        spanList[i].onclick=function(){
+            fuu(this.id);
+        }
+    }
+    function fuu(s){
+        index=s;
+
+        AutoGo();
+    }
+    //清除页面所有按钮状态颜色
+    function clear(){
+        for(var i=0;i<spanList.length;i++){
+            spanList[i].setAttribute("style"," background-position: -603px -290px")
+        }
+    }
+    //右切换事件
+    right.onclick=function(){
+        if(clickFlag){
+            forward();
+        }
+        clickFlag=false;
+    }
+    //左切换事件
+    left.onclick=function(){
+
+        if(clickFlag){
+            backward();
+        }
+        clickFlag=false;
+    }
+</script>
+</html>
